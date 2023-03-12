@@ -59,6 +59,29 @@ body{
     .animation{
         padding-right: 0px;
     }
+
+    .logoo{
+        padding-top: 0px;
+    }
+    .logoo1{
+        display: none;
+        visibility: hidden;
+    }
+
+}
+
+@media (min-width:950px){
+    .logoo1{
+        display: none;
+        visibility: hidden;
+    }
+
+}
+@media (min-width:0px) and (max-width:700px){
+    .logoo1{
+        display: none;
+        visibility: hidden;
+    }
 }
 .home{
     
@@ -74,14 +97,20 @@ body{
     padding-top: 20px;
 }
 .logoo{
-    padding-top: 80px;
+    padding-top: 40px;
     padding-left: 20px;
     aspect-ratio: 16/9;
 }
-@media (max-width:1000px){
+.logoo1{
+    padding: 60px;
+    padding-right: 70px;
+}
+
+@media (max-width:950px){
     .logoo{
         display: none;
         visibility: hidden;
+    
     }
     video{
         padding-top: 10px;
@@ -91,6 +120,7 @@ body{
         
         
     }
+    
     .home{
     
         background-image: url(./assests/bg.png) ;
@@ -98,7 +128,8 @@ body{
 }
 .next{
     display: flex;
-    justify-content: center;
+    justify-content: end;
+    
 }
 
 }
@@ -118,6 +149,11 @@ body{
 .subhead{
     text-align: left;
 }
+@media (min-width:800px) and (max-width:950px){
+.logoo1{
+    visibility: visible;
+}
+
+}
 
 
-  
