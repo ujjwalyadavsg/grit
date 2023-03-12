@@ -62,6 +62,7 @@ body{
 
     .logoo{
         padding-top: 0px;
+        
     }
     .logoo1{
         display: none;
@@ -95,11 +96,12 @@ body{
 .next{
     display: flex;
     padding-top: 20px;
+    
 }
 .logoo{
     padding-top: 40px;
-    padding-left: 20px;
-    aspect-ratio: 16/9;
+    padding-left: 0px;
+    
 }
 .logoo1{
     padding: 60px;
@@ -115,7 +117,7 @@ body{
     video{
         padding-top: 10px;
         padding-left: 20px;
-        padding-right: 10px;
+        padding-right: 20px;
         
         
         
@@ -137,7 +139,7 @@ body{
     padding-top: 0px;
     width: 600px;
     height: 400px;
-    padding-right: 10px;
+    padding-right: 30px;
 }
 
 @media (min-width:800px){
